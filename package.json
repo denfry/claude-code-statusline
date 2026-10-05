@@ -1,0 +1,17 @@
+{
+  "name": "claude-code-statusline",
+  "version": "1.0.0",
+  "description": "Three-row status line for Claude Code: context bar, session tokens, model, git branch",
+  "scripts": {
+    "test": "node test/statusline.test.js",
+    "install-statusline": "node install.js",
+    "uninstall-statusline": "node uninstall.js"
+  },
+  "engines": { "node": ">=16" },
+  "keywords": ["claude-code", "statusline", "cli", "terminal"],
+  "author": "denfry",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/denfry/claude-code-statusline.git" },
+  "homepage": "https://github.com/denfry/claude-code-statusline#readme",
+  "bugs": { "url": "https://github.com/denfry/claude-code-statusline/issues" }
+}
