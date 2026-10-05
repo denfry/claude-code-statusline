@@ -32,7 +32,7 @@ const heat = (t) => t < 0.5 ? rgb(Math.round(80 + 350 * t), 220, 110) : rgb(255,
 const bar = (pct, n = 24) => {
   const fill = Math.max(0, Math.min(n, Math.round((pct / 100) * n)));
   let out = '';
-  for (let i = 0; i < n; i++) out += i < fill ? heat(i / (n - 1)) + '█' : C.track + '░';
+  for (let i = 0; i < n; i++) out += i < fill ? heat(i / (n - 1)) + '█' : C.track + '▒';
   return out + X;
 };
 const lab = (s) => `${C.label}${s.padEnd(8)}${X}`;
