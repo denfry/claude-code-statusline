@@ -23,7 +23,7 @@ const fmt = (n) => {
 const rgb = (r, g, b) => `\x1b[38;2;${r};${g};${b}m`;
 const X = '\x1b[0m', B = '\x1b[1m';
 const C = {
-  dim: rgb(110, 118, 135), track: rgb(58, 63, 78), label: rgb(122, 130, 150),
+  dim: rgb(110, 118, 135), track: rgb(98, 106, 128), label: rgb(122, 130, 150),
   model: rgb(189, 147, 249), dir: rgb(130, 170, 255), br: rgb(80, 250, 123),
   tot: rgb(139, 233, 253), up: rgb(255, 184, 108), dn: rgb(255, 121, 198),
 };
