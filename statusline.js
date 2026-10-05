@@ -58,7 +58,7 @@ const lines = [];
   const row = [];
   if (model) row.push(`${C.model}${B}◆ ${model}${X}`);
   if (dir) {
-    const loc = path.basename(dir.replace(/[\\/]+$/, '')) || dir;
+    const loc = path.basename(path.resolve(dir)) || dir;
     let branch = (d.worktree && d.worktree.branch) || '';
     if (!branch) {
       try {
