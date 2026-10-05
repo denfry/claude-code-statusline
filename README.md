@@ -2,6 +2,10 @@
 
 A three-row status line for [Claude Code](https://claude.com/claude-code): context bar with a green→red gradient, session token totals, model, folder and git branch. One Node.js file, no dependencies.
 
+![Status line screenshot](docs/screenshot.png)
+
+Text version:
+
 ```
 ◆ Sonnet 5.5 · ▸ my-project · ⎇ main
 Context ██░░░░░░░░░░░░░░░░░░░░░░  8%  84.2k / 1M
