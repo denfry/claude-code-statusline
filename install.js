@@ -22,6 +22,6 @@ if (fs.existsSync(settingsPath)) {
     console.log('Previous statusLine saved to', backup);
   }
 }
-settings.statusLine = { type: 'command', command: `node "${target.replace(/\/g, '/')}"` };
+settings.statusLine = { type: 'command', command: `node "${target.replace(/\\/g, '/')}"` };
 fs.writeFileSync(settingsPath, JSON.stringify(settings, null, 2) + '\n');
 console.log('Installed. Restart Claude Code to see the new status line.');

@@ -1,17 +1,38 @@
 {
   "name": "claude-code-statusline",
-  "version": "1.0.0",
-  "description": "Three-row status line for Claude Code: context bar, session tokens, model, git branch",
+  "version": "2.0.0",
+  "description": "Framed status line for Claude Code: context bar, tokens, cost, rate limits, git, skills/plugins/MCP panels",
   "scripts": {
     "test": "node test/statusline.test.js",
     "install-statusline": "node install.js",
     "uninstall-statusline": "node uninstall.js"
   },
-  "engines": { "node": ">=16" },
-  "keywords": ["claude-code", "statusline", "cli", "terminal"],
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "claude-code",
+    "statusline",
+    "cli",
+    "terminal",
+    "git",
+    "mcp",
+    "themes"
+  ],
   "author": "denfry",
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/denfry/claude-code-statusline.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denfry/claude-code-statusline.git"
+  },
   "homepage": "https://github.com/denfry/claude-code-statusline#readme",
-  "bugs": { "url": "https://github.com/denfry/claude-code-statusline/issues" }
+  "bugs": {
+    "url": "https://github.com/denfry/claude-code-statusline/issues"
+  },
+  "files": [
+    "statusline.js",
+    "install.js",
+    "uninstall.js",
+    "statusline.config.example.json"
+  ]
 }

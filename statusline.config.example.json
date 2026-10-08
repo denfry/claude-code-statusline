@@ -1,0 +1,7 @@
+{
+  "theme": "dracula",
+  "compactWarn": 80,
+  "maxWidth": 0,
+  "panels": { "git": true, "setup": true, "plugins": true, "mcp": true },
+  "fields": { "git": true, "lines": true, "usage": true, "cache": true, "mode": true, "clock": true }
+}
